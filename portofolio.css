@@ -388,6 +388,8 @@ text-align: center;
 
     .slide {
         border-bottom-left-radius:20px;
+        height:80px;
+        width:270px;
     }
 
     .text {
@@ -450,4 +452,41 @@ text-align: center;
     }
 
 
+}
+
+@media (max-width:376px) {
+
+    .navli1 {
+        gap:15px;
+    }
+    #exp:checked ~ .exp {
+        right:30px;
+    }
+
+    #pro:checked ~ .pro {
+        right:30px;
+    }
+
+    #skill:checked ~ .skill {
+        right:60px;
+    }
+
+    #con:checked ~ .con {
+        right:35px;
+    }
+}
+
+@media (max-width:320px) {
+    
+    .profile {
+        height:680px;
+        width:280px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .slide {
+        height:80px;
+        width:280px;
+    }
 }
